@@ -3,16 +3,16 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 
 
-export const HERO_CONTENT = `A Passionate Full Stack Web Developer from India.Currently in 3rd year at Heritage Intite of Technology, Kolkata.I am currently exlploring Backend development using Javascript.Eager to contribute in ever-evolving Technology.`;
+export const HERO_CONTENT = `A Passionate Front-end Web Developer from India.Currently in 3rd year at Heritage Intite of Technology, Kolkata.I am currently exlploring Backend development using Javascript.Eager to contribute in ever-evolving Technology.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of experience, I have worked with a variety of technologies, including React, Tailwind CSS, Flask, Javascript, MySQL, and SQlite. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Front-end Developer with a passion for creating efficient and user-friendly web applications. With 1 years of experience, I have worked with a variety of technologies, including React, Tailwind CSS, Flask, Javascript, MySQL, and SQlite. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Software Engineering Fellow",
     company: "HeadStarterAI",
-    description: `Working as a Full Stack Developer in Track-B( Final project that takes a startup’s current backlog and builds it 
+    description: `Working as a Front-end Developer in Track-B( Final project that takes a startup’s current backlog and builds it 
 meeting business requirements.)
 `,
     technologies: ["Javascript", "React.js", "Tailwind CSS", "Flask","SQLite"],

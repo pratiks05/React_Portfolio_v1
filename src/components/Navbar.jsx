@@ -9,9 +9,17 @@ const Navbar = () => {
     {/* <img className="mx-2 w-10" src={logo} alt="logo" /> */}
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaInstagram/>
+    <a href="https://www.linkedin.com/in/pratik-singh-53b297254/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin size={30}/>
+    </a>
+    <a href="https://github.com/pratiks05" target="_blank" rel="noopener noreferrer">
+        <FaGithub size={30}/>
+    </a>
+    <a href="https://www.instagram.com/impratiksingh05?igsh=MWZwZ3oyanFqNms1bA==" target="_blank" rel="noopener noreferrer">
+        <FaInstagram size={30}/>
+    </a>
+       
+
       
     </div>
 </nav>
