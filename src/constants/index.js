@@ -3,19 +3,19 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 
 
-export const HERO_CONTENT = `A Passionate Front-end Web Developer from India.Currently in 3rd year at Heritage Intite of Technology, Kolkata.I am currently exlploring Backend development using Javascript.Eager to contribute in ever-evolving Technology.`;
+export const HERO_CONTENT = `A passionate Front-end Web Developer from India, currently in my 3rd year at HIT,Kolkata. Exploring Backend Development with JavaScript and eager to contribute to the ever-evolving world of technology`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Front-end Developer with a passion for creating efficient and user-friendly web applications. With 1 years of experience, I have worked with a variety of technologies, including React, Tailwind CSS, Flask, Javascript, MySQL, and SQlite. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a Front-end Developer with a strong foundation in C++, Python, and JavaScript, specializing in React.js and Tailwind CSS to build scalable web applications. Expanding into backend development with Flask, Node.js, and MongoDB, I thrive in collaborative environments. I've participated in 8 hackathons, securing top positions in 2—HackSpire-2024 (3rd) and Rebase<01> (1st). Passionate about learning, open-source contributions, and tech communities, I’m eager to collaborate on impactful projects!`
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "July 2024-August 2024",
     role: "Software Engineering Fellow",
     company: "HeadStarterAI",
     description: `Working as a Front-end Developer in Track-B( Final project that takes a startup’s current backlog and builds it 
 meeting business requirements.)
 `,
-    technologies: ["Javascript", "React.js", "Tailwind CSS", "Flask","SQLite"],
+    technologies: ["Javascript", "React.js", "Tailwind", "Flask","SQLite"],
   },
   // {
   //   year: "2022 - 2023",
@@ -46,26 +46,24 @@ export const PROJECTS = [
     image: project1,
     description:
       "Industry Xpert is an AI based cutting-edge web application aimed at revolutionizing safety protocols within industrial environments. I have developed the entire Front-end of this project for user friendly interface.Also I handled major Backend Portions(50-55%)",
-    technologies: ["HTML", "CSS", "Bootstrap", "Flask", "SQLAlchemy","Javascript"],
+    technologies: ["HTML", "CSS", "Bootstrap", "Flask", "SQLite","Javascript"],
+    link:"https://www.youtube.com/watch?v=f3hBCqBDluc&ab_channel=PratikSingh",
   },
   {
     title: "MediConnect",
     image: project2,
     description:
       "MediConnect provides comprehensive 24/7 healthcare services, allowing you to manage your health anytime, anywhere. This application supports early detection and proper medication, crucial for conditions like Parkinson's disease.",
-    technologies: ["HTML", "CSS", "Tailwind CSS", "Flask","Javascript","SQLite"],
+    technologies: ["HTML", "CSS", "Tailwind", "Flask","Javascript","SQLite"],
+    link:"https://www.youtube.com/watch?v=MaxXpJseFDE&ab_channel=PratikSingh",
   },
   {
-    title: "Portfolio Website",
+    title: "JobQuest",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Tailwind CSS", "Javascript", "React", "Framer Motion"],
+      "A full-stack job portal that streamlines the job search and hiring process, enabling seamless recruiter candidate interactions",
+    technologies: ["ReactJs","Vite","Tailwind" ,"Shadcn" , "Supabase", "Clerk" ,"Zod" ],
+    link:"https://job-quest-olive.vercel.app/",
   },
 ];
 
-export const CONTACT = {
-  address: "Kolkata,Anandapur-700107 ",
-  phoneNo: "+91 7596986346",
-  email: "pratiks.tech@gmail.com",
-};
